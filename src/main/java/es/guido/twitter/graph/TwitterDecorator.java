@@ -38,7 +38,7 @@ public class TwitterDecorator {
     private SerializableCache<List<TwitterProfile>> cache;
     
     public TwitterDecorator() {
-        this(true);
+        this(false);
     }
 
     public TwitterDecorator(boolean persistCache) {

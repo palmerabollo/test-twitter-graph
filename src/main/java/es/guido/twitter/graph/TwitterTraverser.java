@@ -38,7 +38,7 @@ public class TwitterTraverser {
     private final String startingNode;
     
     public TwitterTraverser(String startingNode, int maxDepth) {
-        this(startingNode, maxDepth, true);
+        this(startingNode, maxDepth, false);
     }
     
     public TwitterTraverser(String startingNode, int maxDepth, boolean localCache) {

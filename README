@@ -1,1 +1,7 @@
-The starting point is the class TwitterGrapherBot
+The starting point is the class TwitterGrapherBot. There you can modify the starting Twitter user.
+
+Steps to install and run the demo:
+
+git clone https://github.com/palmerabollo/test-twitter-graph.git
+mvn install
+mvn exec:java -Dexec.mainClass=es.guido.twitter.graph.TwitterGrapherBot -Dexec.classpathScope=compile
